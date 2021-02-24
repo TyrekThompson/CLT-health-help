@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    line-height: 1.6;
+    background-image: linear-gradient(to bottom, #eeeeee 65%, #bdd6c1);
+    background-repeat: none;
+    height: 100%;
+    font-family: "Monserrat", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #eeeeee;
+}
+
+.nav__links {
+    list-style: none;
+    display: flex;
+}
+
+.nav__links a,
+.cta {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #202020;
+    text-decoration: none;
+}
+
+.nav__links li {
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: #779886;
+}
+
+.cta {
+    margin-left: 0px;
+    padding: 9px 25px;
+    color: #fff;
+    background-color: #779886;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.cta:hover {
+    background-color: #bdd6c1;
+}
+
+.hero-image{
+    background-image: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)), url("https://images.unsplash.com/photo-1542884748-2b87b36c6b90?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    top: 0px;
+    padding: 5px;
+    border-bottom: 5px solid #779886;
+}
+
+.hero-logo{
+    text-align: center;
+}
+
+.clinics {
+    border: 1px hidden;
+    border-radius: 4px;
+    margin: 7% 10%;
+    background-color: #779886;
+    color: black;
+    padding: 30px 50px;
+    text-align: center;
+    font-size: 45px;
+    box-shadow: 8px 10px 5px #47525E;
+}
+
+.cards {
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: stretch;
+}
+
+.cards > div {
+    background-color: #779886;
+    height: 820px;
+    width: 400px;
+    margin: 50px 30px;
+    text-align: center;
+    align-self: center;
+    line-height: 25px;
+    font-size: 18px;
+    padding: 30px 50px;
+    border-radius: 10px;
+    box-shadow: 8px 10px 5px #47525E;
+}
+
+.location{
+    color: rgb(66, 66, 66);
+}
+
+.cards img {
+    border: 3px solid black;
+    border-radius: 4px;
+    object-fit: scale-down;
+    background: #47525E;
+}
+
+.cards p{
+    color: black;
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.cards a {
+    color: white;
+    background-color: #47525E;
+    text-decoration: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.cards a:hover{
+    color: black;
+    background-color: white;
+}
+
+.financial{
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: stretch;
+}
+
+.financial > div {
+    background-color: #779886;
+    width: 700px;
+    margin: 50px 30px;
+    text-align: center;
+    align-self: center;
+    line-height: 25px;
+    font-size: 18px;
+    padding: 30px 50px;
+    border-radius: 10px;
+    box-shadow: 8px 10px 5px #47525E;
+}
+
+.financial h2{
+    margin: 30px 30px;
+    text-decoration: underline;
+}
+
+.financial p{
+    color: black;
+    margin-bottom: 30px;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.financial a {
+    color: white;
+    background-color: #47525E;
+    text-decoration: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.financial a:hover{
+    color: black;
+    background-color: white;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+footer p {
+    color: #47525E;
+    padding: 20px;
+    margin-right: auto;
+}
+.socials {
+    font-size: 30px;
+    padding: 20px;
+}
+.socials a {
+    color: #47525E;
+    text-decoration: none;
+    margin: 0 10px 0 10px;
+    transition: 400ms ease;
+}
+.socials a:hover {
+    transition: 400ms ease;
+    color: #eee;
+}

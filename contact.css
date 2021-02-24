@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header CSS */
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #eeeeee;
+}
+  
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+  
+.nav-links a,
+.cta {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #202020;
+    text-decoration: none;
+}
+  
+.nav-links li {
+    padding: 0px 20px;
+}
+  
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+  
+.nav-links li a:hover {
+    color: #779886;
+}
+  
+.cta {
+    margin-left: 20px;
+    padding: 9px 25px;
+    color: #fff;
+    background-color: #779886;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 600ms ease 200ms;
+}
+  
+.cta:hover {
+    transition: all 0.3s ease 200ms;
+    background-color: #bdd6c1;
+}
+
+/* Form CSS */
+
+.form-wrapper {
+    margin: auto;
+    max-width: 600px;
+    background: #bdd6c1;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(119, 152, 134, 1);
+}
+
+.form-title{
+    color: #47525E;
+    text-decoration: uppercase;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    margin-bottom: 25px;
+    letter-spacing: 1ch;
+}
+
+.form-title h1 {
+    font-size: 40px;
+}
+
+#inputs input {
+    background: #eee;
+    border: solid #47525E 2px;
+    border-radius: 5px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+#comment-box textarea {
+    background: #eee;
+    padding: 15px;
+    border: solid #47525E 2px;
+    border-radius: 5px;
+    width: 100%;
+    height: 200px;
+}
+
+#comment-box button {
+    /* float: right; */
+    margin-top: 5px;
+    padding: 9px 25px;
+    color: #47525E;
+    background-color: #eee;
+    border: solid #47525E 2px;
+    border-radius: 5px;
+    width: 500px;
+    cursor: pointer;
+    transition: all 600ms ease 200ms;
+}
+
+#comment-box button p {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+#comment-box button:hover {
+    background-color: white;
+    transition: all 600ms ease 200ms;
+}
+
+/* Footer Styling */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    color: #47525E;
+    padding: 20px;
+    margin-right: auto;
+}
+
+.socials {
+    font-size: 30px;
+    padding: 20px;
+}
+
+.socials a {
+    color: #47525E;
+    text-decoration: none;
+    margin: 0 10px 0 10px;
+    transition: 400ms ease;
+}
+
+.socials a:hover {
+    transition: 400ms ease;
+    color: #eee;
+}
+
+/* General Stlying */
+
+body {
+    background-image: linear-gradient(to bottom, #eeeeee 65%, #bdd6c1);
+    background-repeat: none;
+    height: 100vh;
+}
+
+.main {
+    min-height: 100vh;  
+}
